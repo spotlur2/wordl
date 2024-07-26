@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>wordle</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <h1></h1>
+<p>
+Guess the word in 6 tries.
+Each guess must be a 5 letter word with one letter in each box. Hit the guess button to submit.
+After each guess, the color of the tiles will change to show how close your guess was to the word.
+If the tile lights up green, the letter is in the correct spot.
+If the tile lights up yellow, the the letter is in the word but in the incorrect spot.
+If the tile lights up red, the letter is not in the word at all.
+Good Luck!
+ </p>
+ <table>
+   <div>
+    <tr>
+     <th> W</th>
+     <th> O</th>
+     <th> R</th>
+     <th> D</th>
+     <th> L</th>
+    </tr>
+  </div>
+   
+  <tr>
+<td>
+<textarea id="11" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+<td>
+<textarea id="12" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+<td>
+<textarea id="13" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+<td>
+<textarea id="14" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+<td>
+<textarea id="15" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+  </tr>
+  <tr>
+<td>
+<textarea id="21" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+<td>
+<textarea id="22" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+<td>
+<textarea id="23" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+<td>
+<textarea id="24" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+<td>
+<textarea id="25" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+  </tr>
+  <tr>
+<td>
+<textarea id="31" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+<td>
+<textarea id="32" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+<td>
+<textarea id="33" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+<td>
+<textarea id="34" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+<td>
+<textarea id="35" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+  </tr>
+  <tr>
+<td>
+<textarea id="41" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+<td>
+<textarea id="42" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+<td>
+<textarea id="43" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+<td>
+<textarea id="44" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+<td>
+<textarea id="45" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+  </tr>
+<tr>
+<td>
+<textarea id="51" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+<td>
+<textarea id="52" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+<td>
+<textarea id="53" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+<td>
+<textarea id="54" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+<td>
+<textarea id="55" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+  </tr>
+  <tr>
+<td>
+<textarea id="61" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+<td>
+<textarea id="62" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+<td>
+<textarea id="63" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+<td>
+<textarea id="64" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+<td>
+<textarea id="65" style="border:3px;border-style:double;width:60%;height:100%;margin:0;padding:1em;" rows=1 cols=5>
+</textarea>
+</td>
+  </tr>
+ </table>
+     <button class = "button" onclick="guess()">Guess </button>
+     <p id="answer">
+       </p>
+     <script src="script.js"></script>
+</body>
+</html>
+
